@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+$navBar: #1E2632;
+$background: #F7F8F9;
+$text: #3A3C42;
+
+body {
+    background: $background;
+    color: $text;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background: $navBar;
+    a {
+        color: $background;
+    }
+}
+
+.sub-nav {
+    background: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    a {
+        color: $navBar;
+    }
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(204, 204, 204, .5);
+    padding: 20px 40px;
+}
