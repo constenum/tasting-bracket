@@ -245,7 +245,7 @@
 
                                 <div class="col-xxl-6 mb-4">
                                     <div class="card">
-                                        <h6 class="card-title text-center">Iowa vs MinnesotaD</h6>
+                                        <h6 class="card-title text-center">Iowa vs Minnesota</h6>
 
                                         <select class="form-select form-select-sm" name="southfinal">
                                             <option value="">Select</option>
