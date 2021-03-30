@@ -231,7 +231,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Illinois vs Indiana</h6>
 
-                                        <select class="form-select form-select-sm" name="westfinal">
+                                        <select class="form-select form-select-sm" name="westfinal" disabled>
                                             <option value="">Select</option>
                                             <option value="Illinois" {{ (Auth::user()->westfinal ==='Illinois') ? 'selected' : '' }}>
                                                 Illinois
@@ -247,7 +247,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Iowa vs Minnesota</h6>
 
-                                        <select class="form-select form-select-sm" name="southfinal">
+                                        <select class="form-select form-select-sm" name="southfinal" disabled>
                                             <option value="">Select</option>
                                             <option value="Iowa" {{ (Auth::user()->southfinal ==='Iowa') ? 'selected' : '' }}>
                                                 Iowa
@@ -279,7 +279,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Arkansas vs Louisiana</h6>
 
-                                        <select class="form-select form-select-sm" name="midwestfinal">
+                                        <select class="form-select form-select-sm" name="midwestfinal" disabled>
                                             <option value="">Select</option>
                                             <option
                                                 value="Arkansas" {{ (Auth::user()->midwestfinal ==='Arkansas') ? 'selected' : '' }}>
@@ -297,7 +297,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Florida vs Georgia</h6>
 
-                                        <select class="form-select form-select-sm" name="eastfinal">
+                                        <select class="form-select form-select-sm" name="eastfinal" disabled>
                                             <option value="">Select</option>
                                             <option value="Florida" {{ (Auth::user()->eastfinal ==='Florida') ? 'selected' : '' }}>
                                                 Florida
@@ -335,7 +335,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Teams TBD</h6>
 
-                                        <select class="form-select form-select-sm" name="semifinal1" disabled>
+                                        <select class="form-select form-select-sm" name="semifinal1">
                                             <option value="">Select</option>
                                             <option value="1" {{ (Auth::user()->semifinal1 ==='1') ? 'selected' : '' }}>
                                                 1
@@ -351,7 +351,7 @@
                                     <div class="card">
                                         <h6 class="card-title text-center">Teams TBD</h6>
 
-                                        <select class="form-select form-select-sm" name="semifinal2" disabled>
+                                        <select class="form-select form-select-sm" name="semifinal2">
                                             <option value="">Select</option>
                                             <option value="1" {{ (Auth::user()->semifinal2 ==='1') ? 'selected' : '' }}>
                                                 1
