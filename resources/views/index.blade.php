@@ -333,15 +333,15 @@
                             <div class="row">
                                 <div class="col-xxl-6 mb-4">
                                     <div class="card">
-                                        <h6 class="card-title text-center">Teams TBD</h6>
+                                        <h6 class="card-title text-center">Delaware vs Maryland</h6>
 
                                         <select class="form-select form-select-sm" name="semifinal1">
                                             <option value="">Select</option>
-                                            <option value="1" {{ (Auth::user()->semifinal1 ==='1') ? 'selected' : '' }}>
-                                                1
+                                            <option value="Delaware" {{ (Auth::user()->semifinal1 ==='Delaware') ? 'selected' : '' }}>
+                                                Delaware
                                             </option>
-                                            <option value="2" {{ (Auth::user()->semifinal1 ==='2') ? 'selected' : '' }}>
-                                                2
+                                            <option value="Maryland" {{ (Auth::user()->semifinal1 ==='Maryland') ? 'selected' : '' }}>
+                                                Maryland
                                             </option>
                                         </select>
                                     </div>
@@ -349,15 +349,15 @@
 
                                 <div class="col-xxl-6 mb-4">
                                     <div class="card">
-                                        <h6 class="card-title text-center">Teams TBD</h6>
+                                        <h6 class="card-title text-center">N. Carolina vs Virginia</h6>
 
                                         <select class="form-select form-select-sm" name="semifinal2">
                                             <option value="">Select</option>
-                                            <option value="1" {{ (Auth::user()->semifinal2 ==='1') ? 'selected' : '' }}>
-                                                1
+                                            <option value="N. Carolina" {{ (Auth::user()->semifinal2 ==='N. Carolina') ? 'selected' : '' }}>
+                                                N. Carolina
                                             </option>
-                                            <option value="2" {{ (Auth::user()->semifinal2 ==='2') ? 'selected' : '' }}>
-                                                2
+                                            <option value="Virginia" {{ (Auth::user()->semifinal2 ==='Virginia') ? 'selected' : '' }}>
+                                                Virginia
                                             </option>
                                         </select>
                                     </div>
